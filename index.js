@@ -10,10 +10,7 @@ const crypto = require("crypto");
 const {
     default: makeWASocket,
     DisconnectReason,
-    initAuthCreds,
-    BufferJSON,
-    proto,
-    jidNormalizedUser
+    fetchLatestWaWebVersion
 } = require("@whiskeysockets/baileys");
 
 // =====================================================
