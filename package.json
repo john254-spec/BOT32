@@ -1,8 +1,9 @@
 {
   "name": "jontez-whatsapp-bot",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "private": true,
-  "description": "WhatsApp bot with SQLite authentication, anti-delete, group management, and REST API",
+  "description": "WhatsApp bot with SQLite authentication, anti-delete, group management and REST API",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
@@ -11,7 +12,7 @@
     "node": "22.x"
   },
   "dependencies": {
-    "@whiskeysockets/baileys": "6.7.18",
+    "@whiskeysockets/baileys": "latest",
     "better-sqlite3": "^12.4.1",
     "express": "^4.21.2",
     "pino": "^9.6.0"
